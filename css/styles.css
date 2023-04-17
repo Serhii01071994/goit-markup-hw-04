@@ -363,6 +363,7 @@ img {
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
+  color: #8e8f99;
 }
 .customers-svg {
   fill: currentColor;
@@ -370,14 +371,9 @@ img {
 .customers-icon:hover,
 .customers-icon:focus {
   border-color: #404bbf;
-  fill: #404bbf;
+  color: #404bbf;
 }
 
-.customers-svg:hover,
-.customers-svg:focus {
-  border-color: #404bbf;
-  fill: #404bbf;
-}
 /* Footer */
 .footer-bgr {
   background-color: var(--main-color);
